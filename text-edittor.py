@@ -30,7 +30,7 @@ class App(customtkinter.CTk):
 
     def button_save_clicked(self):
         text = self.textbox.get("0.0", "end")
-        with open("data/test.txt", "w", encoding='utf-8') as f:
+        with open("data/text/test.txt", "w", encoding='utf-8') as f:
             f.write(text)
 
 
