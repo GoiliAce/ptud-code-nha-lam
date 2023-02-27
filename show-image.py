@@ -102,6 +102,7 @@ class App(customtkinter.CTk):
 
         self.title_label = customtkinter.CTkLabel(
             master=self, text="Show Image App", font=("Arial", 30, "bold"))
+            
         self.title_label.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
 
         self.frame = Frame(master=self)
