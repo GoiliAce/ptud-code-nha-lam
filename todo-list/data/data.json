@@ -1,0 +1,37 @@
+{
+    "monday": [
+        "learning python",
+        "learning java",
+        "learning c++"
+    ],
+    "tuesday": [
+        "learning python",
+        "learning java",
+        "learning c++"
+    ],
+    "wednesday": [
+        "learning python",
+        "learning java",
+        "learning c++"
+    ],
+    "thursday": [
+        "learning python",
+        "learning java",
+        "learning c++"
+    ],
+    "friday": [
+        "learning python",
+        "learning java",
+        "learning c++"
+    ],
+    "saturday": [
+        "learning python",
+        "learning java",
+        "learning c++"
+    ],
+    "sunday": [
+        "learning python",
+        "learning java",
+        "learning c++"
+    ]
+}
