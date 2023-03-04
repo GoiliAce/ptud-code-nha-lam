@@ -5,16 +5,104 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.employee-name {
-    font-size: 2.5rem;
-    line-height: 160px;
-    color: #333;
+body {
+    background: #ccc;
 }
 
+ul {
+    list-style: none;
+}
 
-.employee-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+li {
+    margin-bottom: 10px;
+}
+
+.container {
+    background: #fff;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+/* name box */
+
+.name-box {
+    background: #333;
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 150px;
+    text-align: center;
+    z-index: 10;
+}
+
+.name {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.avatar {
+    position: absolute;
+    top: -25px;
+    left: 50px;
+}
+
+.avatar img {
+
+    width: 200px;
+    height: 200px;
+}
+
+/* content left */
+.content-left {
+    background-color: rgb(109, 177, 198);
+    min-height: 1700px;
+}
+
+.my-description {
+    margin-top: 275px;
+    padding-bottom: 50px;
+}
+
+/* info */
+.left-item.info {
+    margin-top: 275px;
+
+}
+
+.left-item {
+    padding: 50px;
+    color: #fff;
+    z-index: -1;
+    border-top: 1px solid #fff;
+}
+
+.right-item {
+    padding: 50px;
+    color: #333;
+    z-index: 10;
+    border-top: 1px solid rgb(109, 177, 198);
+}
+
+.cv-info {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 18px;
+}
+
+.cv-info i {
+    margin-top: 5px;
+}
+
+.cv-info span, .cv-info a {
+    margin-left: 10px;
+}
+
+.cv-info a {
+    text-decoration: none;
+    color: #fff
 }
