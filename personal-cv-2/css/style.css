@@ -46,14 +46,14 @@ li {
 
 .avatar {
     position: absolute;
-    top: -25px;
+    top: -30px;
     left: 50px;
 }
 
 .avatar img {
 
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
 }
 
 /* content left */
