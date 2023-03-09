@@ -16,9 +16,7 @@ My journey is far from over, and I have many more challenges to overcome. But wi
 
 ## Getting Started
 To get started with my project, simply clone my repository and switch to the todo list branch:
-``` python
-bash
-Copy code
+``` bash
 git clone https://github.com/GoiliAce/ptud-exercises.git
 cd ptud-exercises
 git checkout tuan_3(django)
