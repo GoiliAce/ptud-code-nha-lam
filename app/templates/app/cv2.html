@@ -1,0 +1,202 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="{% static 'css/cv2.css' %}">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="name-box">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="avatar">
+                                <img src="{% static 'image/avatar.png' %}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="name">
+                                <h1>Cao Nguyen Gia Hung</h1>
+                                <h2>Computer Science Developer</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 ">
+                <div class="row content-left">
+                    <div class="col-md-12">
+                        <div class="left-item info">
+                            <h2 class="title">
+                                INFO
+                            </h2>
+                            <div class="cv-info cv-birth">
+                                <i class="fas fa-birthday-cake"></i>
+                                <span>04-04-2002</span>
+                            </div>
+                            <div class="cv-info cv-gender">
+                                <i class="fas fa-transgender"></i>
+                                <span>Male</span>
+                            </div>
+                            <div class="cv-info cv-address">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Go Vap, Ho Chi Minh city</span>
+                            </div>
+                            <div class="cv-info cv-phone">
+                                <i class="fas fa-phone-alt"></i>
+                                <a href="tel:+84347825051">+84 347825051</a>
+                            </div>
+                            <div class="cv-info cv-email">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto: zombizombi51@gmail.com">caonguyengiahung044@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="left-item education">
+                            <h2 class="title">
+                                EDUCATION
+                            </h2>
+                            <div class="cv-education">
+                                <div class="cv-education-item">
+                                    <div class="cv-education-item-title">
+                                        <h4>Industrial University of Ho Chi Minh City</h4>
+                                        <span>2020 - Present</span>
+                                    </div>
+                                    <div class="cv-education-item-content">
+                                        <p>Major: Information Technology</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-item certifications">
+                            <h2 class="title ">
+                                CERTIFICATIONS
+                            </h2>
+                            <div class="cv-certifications">
+                                <div class="cv-certifications-item">
+                                    <div class="cv-certifications-item-title">
+                                        <h4>Front-end Developer</h4>
+                                        <span>2021</span>
+                                    </div>
+                                    <div class="cv-certifications-item-content">
+                                        <p>From: F8</p>
+                                    </div>
+                                    <div class="cv-certifications-item-title">
+                                        <h4>Big Data Hadoop</h4>
+                                        <span>2023</span>
+                                    </div>
+                                    <div class="cv-certifications-item-content">
+                                        <p>From: Data Flair</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="row content-right">
+                    <div class="col-md-12">
+                        <div class="my-description">
+                            <p>As a junior computer science, I am passionate about creating innovative
+                                solutions that meet the needs of
+                                clients and end-users. With experience in both front-end and back-end development, I am
+                                confident in my ability to
+                                contribute to team projects in a collaborative, results-driven environment. I am a
+                                creative problem-solver who enjoys
+                                exploring new technologies and programming languages, and am committed to continuous
+                                learning and professional
+                                development. With a dedication to quality and attention to detail, I strive to deliver
+                                high-quality work on time and
+                                within budget.</p>
+                        </div>
+                        <div class="right-item career-goals">
+                            <h2 class="title text-uppercase">
+                                career goals
+                            </h2>
+                            <ul>
+                                <li>To become an expert in my field and be recognized for my contributions to the
+                                    development of cutting-edge software and
+                                    technology solutions.</li>
+                                <li>To gain experience working on a variety of projects and to build a diverse skill set
+                                    that allows me to excel in multiple
+                                    areas of software development.</li>
+                                <li>
+                                    To work for a company that values innovation and encourages its employees to take
+                                    risks and explore new ideas in order
+                                    to drive growth and success.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right-item projects">
+                            <h2 class="title text-uppercase">
+                                Projects
+                            </h2>
+                            <div class="cv-projects">
+                                <div class="cv-projects-item">
+                                    <div class="cv-projects-item-title">
+                                        <h4>Fruit lushness detection with ANN using only Numpy</h4>
+                                        <p>2022</p>
+                                    </div>
+                                    <div class="cv-projects-item-title">
+                                        <h4>Website selling perfume using html and javascript technology</h4>
+                                        <p>2022</p>
+                                    </div>
+                                    <div class="cv-projects-item-title">
+                                        <h4>Coffee management app for small and medium coffee shops using Java and SQL
+                                            technology</h4>
+                                        <p>2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-item skills">
+                            <h2 class="title text-uppercase">
+                                skills
+                            </h2>
+                            <div class="cv-skills">
+                                <div class="cv-skills-item">
+                                    <div class="cv-skills-item-title">
+                                        <h4>Python</h4>
+                                        <ul>
+                                            <li class="ml-3">Data processing and visualization:
+                                                Numpy,Pandas,Matplotlib,..</li>
+                                            <li class="ml-3">Data crawling: BeautifulSoup, Scapy, Selenium</li>
+                                            <li class="ml-3">Back end: Django</li>
+                                        </ul>
+                                        <h4>Java</h4>
+                                        <ul>
+                                            <li class="ml-3">Maven app</li>
+                                        </ul>
+                                        <h4>Web</h4>
+                                        <ul>
+                                            <li class="ml-3">Base html/css/js</li>
+                                            <li class="ml-3">Jeykyll blog</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

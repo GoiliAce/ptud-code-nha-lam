@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@600&family=Nunito:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #ccc;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.wrapper {
+    padding: 100px 20px 160px 20px;
+    /* padding: 0 20px; */
+}
+
+
+.cv-name {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #333;
+    font-family: "Golos Text", sans-serif;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.img-avt {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 100rem;
+}
+
+.cv-info {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 18px;
+}
+
+.cv-info i {
+    margin-top: 5px;
+}
+
+.cv-info span, .cv-info a {
+    margin-left: 10px;
+}
+
+.cv-info a {
+    text-decoration: none;
+    color: #333;
+
+}
+
+.custom-skill {
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+/* ------------------------right--------------- */
+.content-list {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 8px 24px;
+}
+
+.content-item {
+    padding-bottom: 8px;
+    font-size: 18px;
+}
+
+
+
+.certifications .content-item ul {
+    padding-left: 40px;
+}
